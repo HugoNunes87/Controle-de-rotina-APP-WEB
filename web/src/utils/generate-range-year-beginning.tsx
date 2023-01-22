@@ -6,7 +6,7 @@ export function generateDateFromYearBegining() {
     const today = new Date()
 
     const dates = []
-    let compareDate= firstDayOfTheYear
+    let compareDate = firstDayOfTheYear
 
     while (compareDate.isBefore(today)) {
         dates.push(compareDate.toDate())
